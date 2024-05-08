@@ -1,0 +1,33 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .form-container {
+    margin-bottom: 20px;
+  }
+  
+  .floor-plan-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .floor-plan-form input, .floor-plan-form select {
+    margin-bottom: 10px;
+  }
+  
+  .floor-plan-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  
+  .floor-plan-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+  }
+  
